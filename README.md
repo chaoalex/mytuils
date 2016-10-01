@@ -1,2 +1,2 @@
-# mytuils
+# mytutilities
 my utilities collection
