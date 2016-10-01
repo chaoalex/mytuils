@@ -1,2 +1,0 @@
-# mytutilities
-my utilities collection
