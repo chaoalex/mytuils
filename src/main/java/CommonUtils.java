@@ -31,5 +31,4 @@ public class CommonUtils {
             return 0x0;
         }
     }
-
 }
