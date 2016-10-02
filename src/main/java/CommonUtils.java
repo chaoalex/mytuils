@@ -1,3 +1,5 @@
+import java.io.File;
+
 /**
  * @author wuchao03
  * @version 1.0
@@ -30,5 +32,20 @@ public class CommonUtils {
         } catch (NumberFormatException ex) {
             return 0x0;
         }
+    }
+
+    /**
+     * Guarantee path ends with file separator
+     *
+     * @param str
+     *
+     * @return
+     */
+    public static String guaranteeEndWithSeparator(String path) {
+        if (!path.endsWith(File.separator)) {
+            path = path + File.separator;
+        }
+
+        return path;
     }
 }
