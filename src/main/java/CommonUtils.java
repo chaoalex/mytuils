@@ -37,7 +37,7 @@ public class CommonUtils {
     /**
      * Guarantee path ends with file separator
      *
-     * @param str
+     * @param path
      *
      * @return
      */
