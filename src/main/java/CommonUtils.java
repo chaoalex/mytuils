@@ -35,14 +35,14 @@ public class CommonUtils {
     }
 
     /**
-     * Guarantee path ends with file separator
+     * guarantee path ends with separator
      *
      * @param path
      *
      * @return
      */
     public static String guaranteeEndWithSeparator(String path) {
-        if (!path.endsWith(File.separator)) {
+        if ((path != null) && !path.endsWith(File.separator)) {
             path = path + File.separator;
         }
 
